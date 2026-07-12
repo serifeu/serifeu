@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Şerife U. | Software Developer, Artificial Intelligence and Computer Vision Developer">
+    <meta name="keywords" content="Şerife U, Portfolio, Software Developer, AI, Computer Vision, OpenCV, TensorFlow, C++, Python">
+    <meta name="author" content="Şerife U.">
+    <title>Şerife U. | Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+<div id="loader">
+    <div class="loader-box">
+        <h2 data-lang="loaderTitle"> INITIALIZING... </h2>
+        <div class="loader-bar">
+            <div class="loader-progress"></div>
+        </div>
+       <p data-lang="loaderText">  Loading Portfolio  </p>
+    </div>
+</div>
+<div class="cursor-glow"></div>
+<header class="navbar">
+    <div class="logo">  SU.</div>
+    <nav>
+       <a href="#home" data-lang="home">Home</a>
+        <a href="#about" data-lang="about">About</a>
+        <a href="#projects" data-lang="projects">Projects</a>
+        <a href="#skills" data-lang="skills">Skills</a>
+        <a href="#contact" data-lang="contact">Contact</a>
+    </nav>
+    <div class="navbar-right">
+        <div class="language">
+            <button id="trBtn" class="active">TR</button>
+            <button id="enBtn">EN</button>
+        </div>
+    </div>
+</header>
+<section
+id="home"
+class="hero">
+<div class="blur blur1"></div>
+<div class="blur blur2"></div>
+<div class="container">
+<div class="hero-left">
+<h1>Şerife U.</h1>
+<h2>
+    <span id="typing"></span>
+</h2>
+<p class="description" data-lang="heroDescription">
+...
+</p>
+<div class="buttons">
+    <a href="assets/documents/Özgeçmiş - Cv.pdf"
+   class="cv-btn"
+   target="_blank">
+    <i class="fa-solid fa-download"></i>
+    <span data-lang="download"> Download CV </span>
+</a>
+  <a href="https://github.com/serifeu"
+   class="secondary-btn"
+   target="_blank">
+    <i class="fa-brands fa-github"></i> GitHub</a>
+</div>
+<div class="stats">
+<div class="card">
+<h3>06+</h3>
+<span data-lang="projectsCount">Projects</span>
+</div>
+<div class="card">
+<h3>15+</h3>
+<span data-lang="technologies">Technologies</span>
+</div>
+<div class="card">
+<h3>3.67</h3>
+<span data-lang="gpa">GPA</span>
+</div>
+</div>
+</div>
+<div class="hero-right">
+<div class="photo-wrapper">
+    <div class="ring"></div>
+    <div class="photo-card">
+        <img src="assets/images/profile/profile.jpg">
+    </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="about" id="about">
+    <div class="container">
+        <div class="section-title">
+            <span data-lang="aboutSection">ABOUT ME</span>
+           <h2 data-lang="journey">My Journey</h2>
+        </div>
+        <div class="about-grid">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="circle"></div>
+                    <div class="content">
+                        <h3>2005</h3>
+                       <p data-lang="born">Born in Konya / Türkiye</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="circle"></div>
+                    <div class="content">
+                        <h3>2020</h3>
+                       <p data-lang="pythonStart">Started Programming with Python</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="circle"></div>
+                    <div class="content">
+                        <h3>2023</h3>
+                     <p data-lang="cpStart">Started Computer Programming</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="circle"></div>
+                    <div class="content">
+                        <h3>2024</h3>
+           <p data-lang="aiProject">Artificial Intelligence & OpenCV Projects</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="circle"></div>
+                    <div class="content">
+                        <h3>2026</h3>
+                    <p data-lang="graduation">Faculty & Department First (3.67 GPA)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-text">
+            <h2 data-lang="passionate">Passionate Software Developer</h2>
+           <p data-lang="aboutText1">...</p>
+<p data-lang="aboutText2">...</p>
+            </div>
+            </div>
+            </section>
+<section class="projects" id="projects">
+    <div class="container">
+        <div class="section-title">
+            <span data-lang="projectsSection">PROJECTS</span>
+          <h2 data-lang="featuredProjects">Featured Projects</h2>
+        </div>
+        <div class="project-card">
+            <div class="project-info">
+                <span class="project-type" data-lang="computerVision">Computer Vision</span>
+               <h2 data-lang="faceTitle">Face Recognition System</h2>
+              <p data-lang="faceDesc">...</p>
+                <div class="tech">
+                    <span>C++</span>
+                    <span>OpenCV</span>
+                    <span>Qt</span>
+                    <span>CMake</span>
+                </div>
+          <button class="project-btn"
+data-project="face"> View Details
+</button>
+            </div>
+            <div class="project-image">
+                <img src="assets/images/projects/face-recognition.png">
+            </div>
+        </div>
+        <div class="project-card reverse">
+            <div class="project-info">
+              <span class="project-type" data-lang="ai">Artificial Intelligence</span>
+                <h2 data-lang="kidneyTitle">Kidney Stone Detection</h2>
+               <p data-lang="kidneyDesc">...</p>
+                <div class="tech">
+                    <span>Python</span>
+                    <span>TensorFlow</span>
+                    <span>Keras</span>
+                    <span>OpenCV</span>
+                </div>
+<button class="project-btn"data-project="kidney"> View Details</button>
+            </div>
+            <div class="project-image">
+                <img src="assets/images/projects/kidney-ai.png">
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-info">
+                <span class="project-type" data-lang="desktop">Desktop Application</span>
+               <h2 data-lang="schedulerTitle">Smart Course Scheduler</h2>
+               <p data-lang="schedulerDesc">...</p>
+                <div class="tech">
+                    <span>C#</span>
+                    <span>Windows Forms</span>
+                    <span>SQL Server</span>
+                </div>
+<button class="project-btn"data-project="scheduler">  View Details</button>
+                </div>
+            <div class="project-image">
+                <img src="assets/images/projects/smart-schedule.png">
+            </div>
+    </div>
+</section>
+<section class="tech-stack" id="skills">
+    <div class="container">
+     <div class="section-title">
+    <span data-lang="techStack">  TECH STACK </span>
+    <h2 data-lang="techTitle">    Technologies I Use</h2>
+</div>
+        <div class="skills-circle">
+            <img src="assets/images/profile/profile.jpg" class="center-image">
+            <div class="skill s1">C++</div>
+            <div class="skill s2">C</div>
+            <div class="skill s3">C#</div>
+            <div class="skill s4">Python</div>
+            <div class="skill s5">TensorFlow</div>
+            <div class="skill s6">OpenCV</div>
+            <div class="skill s7">Qt</div>
+            <div class="skill s8">HTML</div>
+            <div class="skill s9">CSS</div>
+            <div class="skill s10">JavaScript</div>
+            <div class="skill s11">SQL Server</div>
+            <div class="skill s12">PostgreSQL</div>
+        </div>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="section-title">
+         <span data-lang="contactSection">CONTACT</span>
+          <h2 data-lang="contactTitle">Let's Work Together</h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+              <h3 data-lang="getTouch">Get In Touch</h3>
+<p data-lang="contactDesc">If you would like...</p>
+               <div class="contact-item">
+    <i class="fa-solid fa-envelope"></i>
+    <a href="mailto:serifexwq@gmail.com">serifexwq@gmail.com</a>
+</div>
+<div class="contact-item">
+    <i class="fa-brands fa-github"></i>
+    <a href="https://github.com/serifeu" target="_blank">  github.com/serifeu</a>
+</div>
+<div class="contact-item">
+    <i class="fa-brands fa-linkedin"></i>
+    <a href="https://www.linkedin.com/in/şerife-u-488843296" target="_blank"> linkedin.com/in/şerife-u-488843296 </a>
+</div>
+            </div>
+            <form
+class="contact-form"action="https://formspree.io/f/xkodwaep"method="POST">
+    <input
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        data-placeholder="name"
+        required>
+    <input
+        type="email"
+        name="email"
+        placeholder="Email"
+        data-placeholder="email"
+        required>
+    <textarea
+        name="message"
+        placeholder="Your Message"
+        data-placeholder="message"
+        required></textarea>
+    <button type="submit" data-lang="send">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+<div class="modal" id="projectModal">
+    <div class="modal-box">
+        <span class="close-modal">&times;</span>
+        <img id="modalImage" src="">
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+        <div id="modalTech"></div>
+    </div>
+</div> 
+<footer>
+    <p data-lang="footer">© 2026 Şerife U. All Rights Reserved.</p>
+</footer>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/language.js"></script>
+</body>
+</html>

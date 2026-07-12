@@ -1,0 +1,66 @@
+@keyframes float{
+0%{
+transform:translateY(0);
+}
+50%{
+transform:translateY(-18px);
+}
+100%{
+transform:translateY(0);
+}
+}
+@keyframes fadeUp{
+0%{
+opacity:0;
+transform:translateY(60px);
+}
+100%{
+opacity:1;
+transform:translateY(0);
+}
+}
+@keyframes glow{
+0%{
+box-shadow:0 0 20px #3b82f655;
+}
+50%{
+box-shadow:0 0 50px #3b82f6;
+}
+100%{
+box-shadow:0 0 20px #3b82f655;
+}
+}
+@keyframes scroll{
+0%{
+top:10px;
+opacity:0;
+}
+100%{
+top:32px;
+opacity:1;
+}
+}
+@keyframes rotateRing{
+from{
+transform:translate(-50%,-50%) rotate(0);
+}
+to{
+transform:translate(-50%,-50%) rotate(360deg);
+}
+}
+@keyframes loading{
+0%{
+width:0%;
+}
+100%{
+width:100%;
+}
+}
+@keyframes rotateOrbit{
+from{
+transform:rotate(0deg);
+}
+to{
+transform:rotate(360deg);
+}
+}
